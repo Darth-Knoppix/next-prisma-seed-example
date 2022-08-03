@@ -6,7 +6,11 @@ An example of how to seed your DB when using Prisma and Next.js
 
 ## Getting Started
 
-Steup the DB, `cp .env.example .env` and update values as you see fit. Tih project uses SQLite for ease of use.
+### Database
+
+- Setup the DB, `cp .env.example .env` and update values as you see fit. Tih project uses SQLite for ease of use.
+- Create the DB with `yarn prisma db push`, this will create a SQLite DB in the directory specified by the .env file.
+- Run `yarn db:seed` to seed the coffee data
 
 Run the development server:
 
